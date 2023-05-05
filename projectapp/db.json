@@ -1,0 +1,85 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "email": "chandan@padal.com",
+      "first_name": "chandan",
+      "last_name": "padal",
+      "phone": "1234567890",
+      "password": "chandan",
+      "retype_password": ""
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4,
+      "email": "ushmitakhushi11092000@gmail.com",
+      "first_name": "ushmita",
+      "last_name": "dutta",
+      "phone": "1234567",
+      "password": "ushmita",
+      "retype_password": ""
+    },
+    {
+      "id": 5,
+      "email": "hi@gmail.com",
+      "first_name": "hi",
+      "last_name": "bye",
+      "phone": "12345",
+      "password": "12345",
+      "retype_password": ""
+    },
+    {
+      "id": 6,
+      "email": "ush@gmaiil.com",
+      "first_name": "ushmita",
+      "last_name": "dutta",
+      "phone": "123457",
+      "password": "123456",
+      "retype_password": ""
+    },
+    {
+      "id": 7,
+      "email": "test",
+      "first_name": "test",
+      "last_name": "test",
+      "phone": "test",
+      "password": "test",
+      "retype_password": ""
+    },
+    {
+      "id": 8,
+      "email": "apple@gmail.com",
+      "first_name": "apple",
+      "last_name": "ball",
+      "phone": "8765432190",
+      "password": "1234567",
+      "retype_password": ""
+    },
+    {
+      "id": 9,
+      "email": "access@gmail.com",
+      "first_name": "access",
+      "last_name": "denied",
+      "phone": "access",
+      "password": "access",
+      "retype_password": ""
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

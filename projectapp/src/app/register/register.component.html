@@ -1,0 +1,37 @@
+<form [formGroup]="formValue">
+ 
+    <div class="mb-3">
+      <div class="col-sm-6">
+        <label for="lastName" class="form-label">First Name</label>
+        <input type="text" formControlName="first_name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First Name">
+      </div>
+      </div>
+      
+      <div class="mb-3">
+        <label for="lastName" class="form-label">Last Name</label>
+        <input type="text" formControlName="last_name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      
+    <div class="mb-3">
+      <label for="email" class="form-label">Email address</label>
+      <input type="text" formControlName="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      
+    </div>
+    <div class="mb-3">
+        <label for="phone" class="form-label">Phone Number</label>
+        <input type="text" formControlName="phone" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        
+      </div>
+    <div class="mb-3">
+      <label for="password" class="form-label">Password</label>
+      <input type="text" formControlName="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3">
+        <label for="retypepassword" class="form-label">Retype Password</label>
+        <input type="text" formControlName="retype_password" class="form-control" id="exampleInputPassword1">
+      </div>
+    <button type="submit" (click)="postUserDetails()" class="btn btn-primary">Submit</button>
+  </form>
+  <br>
+ <a [routerLink]="['/login']"><button class="btn btn-primary">I already have an account</button></a>
+
